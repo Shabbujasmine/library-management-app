@@ -1,0 +1,224 @@
+{
+  "loginInfo": {
+    "ad": {
+      "empId": 1,
+      "empname": "Admin",
+      "password": "ad",
+      "role": "admin"
+    },
+    "user1": {
+      "empId": 2,
+      "empname": "Shantanu",
+      "password": "user1",
+      "role": "member"
+    },
+    "user2": {
+      "empId": 3,
+      "empname": "Rose",
+      "password": "user2",
+      "role": "member"
+    },
+    "user3": {
+      "empId": 3,
+      "empname": "John",
+      "password": "user3",
+      "role": "member"
+    },
+    "user4": {
+      "empId": 3,
+      "empname": "Jack",
+      "password": "user4",
+      "role": "member"
+    }
+  },
+  "BooksInfo": [
+    {
+      "bookId": 10001,
+      "bookname": "Fundamental Accounting Principles",
+      "category": "Commerce",
+      "author": "John Wild",
+      "price": "1070",
+      "img": "../../assets/images/fundamental_acc_principles.jpg",
+      "copies": 12,
+      "copycodes": [
+        "FAP100",
+        "FAP101",
+        "FAP102",
+        "FAP103",
+        "FAP104",
+        "FAP105",
+        "FAP106",
+        "FAP107",
+        "FAP108",
+        "FAP109",
+        "FAP110",
+        "FAP111"
+      ],
+      "location": {
+        "row": 5,
+        "rack": 1,
+        "shelf": 1
+      }
+    },
+    {
+      "bookId": 10006,
+      "bookname": "Computer Networks",
+      "category": "Engineering",
+      "author": "Tanenbaum",
+      "price": "1400",
+      "img": "../../assets/images/computer_networks.jpg",
+      "copies": 2,
+      "copycodes": [
+        "CNN100",
+        "CNN101"
+      ],
+      "location": {
+        "row": 1,
+        "rack": 1,
+        "shelf": 3
+      }
+    },
+    {
+      "bookId": 10002,
+      "bookname": "Operating System Concepts",
+      "category": "Engineering",
+      "author": "Silberschatz",
+      "price": "1240",
+      "img": "../../assets/images/operating_system.jpg",
+      "copies": 7,
+      "copycodes": [
+        "OSC100",
+        "OSC101",
+        "OSC102",
+        "OSC103",
+        "OSC104",
+        "OSC105",
+        "OSC106"
+      ],
+      "location": {
+        "row": 1,
+        "rack": 2,
+        "shelf": 1
+      }
+    },
+    {
+      "bookId": 10003,
+      "bookname": "Fundamentals of Statistics",
+      "category": "Mathematics",
+      "author": "B Dasgupta",
+      "price": "814",
+      "img": "../../assets/images/fundamentals_of_statistics.jpg",
+      "copies": 13,
+      "copycodes": [
+        "FOS100",
+        "FOS101",
+        "FOS102",
+        "FOS103",
+        "FOS104",
+        "FOS105",
+        "FOS106",
+        "FOS107",
+        "FOS108",
+        "FOS109",
+        "FOS110",
+        "FOS111",
+        "FOS112"
+      ],
+      "location": {
+        "row": 2,
+        "rack": 1,
+        "shelf": 1
+      }
+    },
+    {
+      "bookId": 10004,
+      "bookname": "Linear Algebra and its Applications",
+      "category": "Mathematics",
+      "author": "Gilbert Strang",
+      "price": "920",
+      "img": "../../assets/images/linear_algebra.jpg",
+      "copies": 4,
+      "copycodes": [
+        "LAA100",
+        "LAA101",
+        "LAA102",
+        "LAA103"
+      ],
+      "location": {
+        "row": 2,
+        "rack": 1,
+        "shelf": 2
+      }
+    },
+    {
+      "bookId": 10005,
+      "bookname": "International Law",
+      "category": "Law",
+      "author": "Martin Dixon",
+      "price": "1130",
+      "img": "../../assets/images/international_law.jpg",
+      "copies": 8,
+      "copycodes": [
+        "INL100",
+        "INL101",
+        "INL102",
+        "INL103",
+        "INL104",
+        "INL105",
+        "INL106",
+        "INL107"
+      ],
+      "location": {
+        "row": 4,
+        "rack": 1,
+        "shelf": 1
+      }
+    }
+  ],
+  "bookBorrowInfo": [
+    {
+      "id": 10001,
+      "borrower": [
+        [
+          "user1",
+          "CNN101",
+          "false",
+          "false"
+        ]
+      ]
+    },
+    {
+      "id": 10003,
+      "borrower": [
+        [
+          "user3",
+          "FOS100",
+          "true",
+          "false"
+        ]
+      ]
+    },
+    {
+      "id": 10002,
+      "borrower": [
+        [
+          "user2",
+          "OSC100",
+          "false",
+          "false"
+        ]
+      ]
+    },
+    {
+      "id": 10005,
+      "borrower": [
+        [
+          "user1",
+          "INL100",
+          "false",
+          "false"
+        ]
+      ]
+    }
+  ]
+}
