@@ -1,9 +1,9 @@
 {
   "loginInfo": {
-    "ad": {
+    "admin": {
       "empId": 1,
       "empname": "Admin",
-      "password": "ad",
+      "password": "admin",
       "role": "admin"
     },
     "user1": {
